@@ -12,7 +12,7 @@ from scipy import signal
 from scipy.io import wavfile
 
 
-audio_name='red.wav'
+audio_name='recording.wav'
 '''
 loading Trained Model
 '''
@@ -22,18 +22,14 @@ interpreter = Interpreter(model_path)
 interpreter.allocate_tensors()
 input_details = interpreter.get_input_details()
 output_details = interpreter.get_output_details()
-
-    ## Model Information
-# print("Input Shape:", input_details[0]['shape'])
-# print("Input Type:", input_details[0]['dtype'])
-# print("Output Shape:", output_details[0]['shape'])
-# print("Output Type:", output_details[0]['dtype'])
-
+print("recording")
 
 fs = 22050;seconds = 1
 audio = sd.rec(int(seconds * fs), samplerate=fs, channels=1)
 sd.wait()
-write(audio_name, fs, audio)  # Save as WAV file
+audio = (np.clip(audio, -32768, 32767)) * 3276
+write(audio_name, fs, audio.astype(np.int16))  # Save as WAV file
+
 rate, audio = wavfile.read (audio_name)
 
 f, t, spec = signal.stft(audio, fs=22050, nperseg=255, noverlap = 124, nfft=256)

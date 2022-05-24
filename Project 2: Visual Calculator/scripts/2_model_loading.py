@@ -1,14 +1,15 @@
 
 import os
 import numpy as np
-import tensorflow as tf
-from keras.models import Sequential
-from keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
-from keras.preprocessing import image
-from keras.preprocessing.image import ImageDataGenerator
+from tflite_runtime.interpreter import Interpreter
 
+model_path = "/home/rpi/Tiny-ML/Project 2: Visual Calculator/data/tflite_model.tflite"
 
-from keras.models import load_model
+interpreter = Interpreter(model_path)
+input_details = interpreter.get_input_details()
+output_details = interpreter.get_output_details()
+    
+interpreter.allocate_tensors()
+_, height, width, _ = interpreter.get_input_details()[0]['shape']
 
-classifier = load_model('/content/cal_2e2.h5')
-classifier.summary()
+print(output_details)

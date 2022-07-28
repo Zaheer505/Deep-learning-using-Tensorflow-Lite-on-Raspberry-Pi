@@ -3,12 +3,15 @@ This Branch of repository is build live during course creation and commits are s
 
 ### Projects
 - **Project 1 : Sin Function Approximation**
-    - Notebooks : Contains Python Notebooks for model training on Colab
+    - Notebooks : Contains Python Notebooks for model training on Colab.
 - **Project 2 : Visual Calculator**
-    - **Notebooks** : Contains Python Notebooks for model training on Colab
-    - **Scripts** : Step Wise python Scripts for Model Testing and Implementation
-    - **Data** : Custom Data pdf for printing and Video Recording
-
+    - **Notebooks** : Contains Python Notebooks for model .training on Colab
+    - **Scripts** : Step Wise python Scripts for Model Testing and Implementation.
+    - **Data** : Custom Data for printing and Video Recording.
+- **Project 3 : Audio Led Control**
+    - **Notebooks** : Contains Python Notebooks for model training on Colab.
+    - **Scripts** : Step Wise python Scripts for Model Testing and Implementation.
+    - **Data** : Pre Trained model for inferencing.
 ### System Requirments
 - PC   : Ubuntu 22.04
 - RPI4 : RPI Full OS
@@ -55,8 +58,12 @@ This Branch of repository is build live during course creation and commits are s
         ```
         pip install -U numpy
         ```
-
-
+    - Audio processing Dependencies
+        ```
+        pip install sounddevice
+        sudo apt-get install libportaudio2
+        pip install scipy
+        ```
 
 ## Using Repository
 - Obtain the code using Git

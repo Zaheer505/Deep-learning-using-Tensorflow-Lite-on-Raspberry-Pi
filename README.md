@@ -1,5 +1,7 @@
 # Deep learning using Tensorflow Lite on Raspberry Pi
 
+![alt text](https://github.com/Zaheer505/Deep-learning-using-Tensorflow-Lite-on-Raspberry-Pi/blob/main/images/thumbnail.png)
+
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
@@ -14,6 +16,7 @@
   </ol>
 </details>
 
+
 ## About this Repository
 This course is focused on Embedded Deep learning in Python . Raspberry PI 4 is utilized as a main hardware and we will be building practical projects with custom data .
 
@@ -24,14 +27,17 @@ This course is focused on Embedded Deep learning in Python . Raspberry PI 4 is u
 - Another amazing project is focused on convolution network but the data is custom voice recordings . We will involve a little bit of electronics to show the output by controlling our multiple LEDs using own voice .
 
 - Unique learning point in this course is Post Quantization applied on Tensor flow models trained on Google Colab . Reducing size of models to 3 times and increasing inferencing speed up to 0.03 sec per input .
+---
 ## Features
 - **Non Linear Trignometric Approximation**
-
+    - ![alt text](https://github.com/Zaheer505/Deep-learning-using-Tensorflow-Lite-on-Raspberry-Pi/blob/main/images/sign_function.gif)
 - **Real Time Number Detection**
-
+    - ![alt text](https://github.com/Zaheer505/Deep-learning-using-Tensorflow-Lite-on-Raspberry-Pi/blob/main/images/vc_extraction.gif)
 - **Visual Calculator Equation Solving**
-
+    - ![alt text](https://github.com/Zaheer505/Deep-learning-using-Tensorflow-Lite-on-Raspberry-Pi/blob/main/images/vc_equation.gif)
 - **Voice Controlled LEDs**
+    - ![alt text](https://github.com/Zaheer505/Deep-learning-using-Tensorflow-Lite-on-Raspberry-Pi/blob/main/images/voice_control.gif)
+---
 ## Installations
 - Laptop/PC Installations
     - Rpi-Imager for installing RPI OS on SD CARD
@@ -75,7 +81,7 @@ This course is focused on Embedded Deep learning in Python . Raspberry PI 4 is u
         sudo apt-get install libportaudio2
         pip install scipy
         ```
-
+----
 ## Using Repository
 - Obtain the code using Git
     ```
@@ -90,7 +96,7 @@ This course is focused on Embedded Deep learning in Python . Raspberry PI 4 is u
     tightvncserver :1
     ```
 - Access RPI through VNC-Viwer on PC
-
+---
 ## Pre-Course Requirments
 - PC   : Ubuntu 22.04
 - RPI4 : RPI Full OS

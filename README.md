@@ -114,6 +114,7 @@ If you want to take video lecture explaination of how this repository is built .
 
 ## Instructors
 Muhammad Luqman - [Profile Link](https://www.linkedin.com/in/muhammad-luqman-9b227a11b/)
+Zaheer Ahmed - [Profile Link](https://www.linkedin.com/in/zaheer-ahmed505/)
 
 ----
 ## License

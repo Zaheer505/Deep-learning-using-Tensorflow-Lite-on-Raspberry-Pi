@@ -28,7 +28,7 @@ This course is focused on Embedded Deep learning in Python . Raspberry PI 4 is u
 
 - Unique learning point in this course is Post Quantization applied on Tensor flow models trained on Google Colab . Reducing size of models to 3 times and increasing inferencing speed up to 0.03 sec per input .
 
-- Note: This repo contains step by step approach to teach different things to students of our course. You may find some raw data / codes which are meant for learning purposes of students.
+Note: This repo contains step by step approach to teach different things to students of our course. You may find some raw data / codes which are meant for learning purposes of students.
 
 ---
 ## Features

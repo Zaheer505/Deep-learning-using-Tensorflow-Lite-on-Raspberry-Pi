@@ -27,6 +27,9 @@ This course is focused on Embedded Deep learning in Python . Raspberry PI 4 is u
 - Another amazing project is focused on convolution network but the data is custom voice recordings . We will involve a little bit of electronics to show the output by controlling our multiple LEDs using own voice .
 
 - Unique learning point in this course is Post Quantization applied on Tensor flow models trained on Google Colab . Reducing size of models to 3 times and increasing inferencing speed up to 0.03 sec per input .
+
+- Note: This repo contains step by step approach to teach different things to students of our course. You may find some raw data / codes which are meant for learning purposes of students.
+
 ---
 ## Features
 - **Non Linear Trignometric Approximation**
